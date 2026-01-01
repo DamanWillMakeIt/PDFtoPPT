@@ -67,7 +67,7 @@ class LLMService:
             return await loop.run_in_executor(
                 None,
                 LLMService._gemini_generate,
-                "gemini-3-pro-preview",
+                "gemini-2.5-flash",
                 prompt,
                 system_prompt,
             )
