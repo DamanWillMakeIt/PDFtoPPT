@@ -1,8 +1,18 @@
+# --- Server Core (MISSING BEFORE) ---
+fastapi
+uvicorn[standard]
+
+# --- AI & Logic ---
 openai>=1.0.0
+google-generativeai
 pydantic>=2.0.0
+
+# --- PPT Engine ---
 python-pptx
 playwright
 beautifulsoup4
-python-dotenv
-asyncio
 cloudinary
+
+# --- Utils ---
+python-dotenv
+requests
