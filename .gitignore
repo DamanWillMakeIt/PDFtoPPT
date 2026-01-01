@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+venv1/
+.env
+
+# Secrets
+vertex_key.json
+service_account.json
+*.json
+
+# System
+.DS_Store
+.vscode/
+
+# Project Output
+output/
+temp/
